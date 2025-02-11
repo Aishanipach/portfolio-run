@@ -1,10 +1,19 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
+.main-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.main-name{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

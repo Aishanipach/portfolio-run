@@ -1,0 +1,13 @@
+
+.background-text {
+  font-family: 'Dogica', sans-serif;
+  font-size: 8vw;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding: 0px;
+  text-transform:uppercase; 
+  letter-spacing: 0.2rem;
+  position: absolute;
+    z-index: -1;
+    text-align: center;
+}
