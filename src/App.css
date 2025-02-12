@@ -11,10 +11,19 @@ align-items: center;
 justify-content: center;
 }
 
+.main-name-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  letter-spacing: 0.05rem;
+}
+
 .main-name{
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Karla;
+  font-size: 1rem;
+  padding:3px 7px;
   font-weight: 600;
-  margin-top: 20vh;
 }
 .logo {
   height: 6em;

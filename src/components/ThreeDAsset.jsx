@@ -12,7 +12,6 @@ export default function ThreeDAsset() {
   const [cameraPosition, setCameraPosition] = useState([9, 7, 5]);
 
   useEffect(() => {
-    console.log(width);
     if (width > 500) {
       setCameraPosition([9, 7, 5]);
     } else {
@@ -21,7 +20,7 @@ export default function ThreeDAsset() {
   }, [width]);
 
   return (
-    <div style={{ height: "80vh", marginTop: "15vh" }}>
+    <div style={{ height: "60vh", marginTop: "8vh" }}>
       <Canvas frameloop="always" camera={{ position: cameraPosition }}>
         <ambientLight intensity={0.8} />
         <directionalLight position={[3, 3, 3]} />

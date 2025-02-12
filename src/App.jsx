@@ -5,7 +5,9 @@ import ThreeDAsset from "./components/ThreeDAsset";
 function App() {
   return (
     <div>
-      <div className="main-name">AISHANI PACHAURI</div>
+      <div className="main-name-wrapper">
+        <p className="main-name">AISHANI PACHAURI</p>
+      </div>
       <div className="main-container">
         <ThreeDAsset />
         <BackgroundText />
