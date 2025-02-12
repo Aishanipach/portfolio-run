@@ -12,6 +12,11 @@ function App() {
         <ThreeDAsset />
         <BackgroundText />
       </div>
+      <div>
+        I am a software developer, caffeinated by coffee and driven by passion.
+        <br />I love to code and create new things. I have a creative side too
+        :)
+      </div>
     </div>
   );
 }

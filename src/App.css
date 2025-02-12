@@ -15,14 +15,13 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 8vh;
   letter-spacing: 0.05rem;
 }
 
 .main-name{
   font-family: Karla;
   font-size: 1rem;
-  padding:3px 7px;
   font-weight: 600;
 }
 .logo {
