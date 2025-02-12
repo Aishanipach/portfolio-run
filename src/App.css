@@ -13,6 +13,8 @@ justify-content: center;
 
 .main-name{
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 20vh;
 }
 .logo {
   height: 6em;
